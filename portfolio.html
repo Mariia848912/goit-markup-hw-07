@@ -14,6 +14,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
+    <link rel="stylesheet" href="./CSS/main.min.css" />
     <link rel="stylesheet" href="./CSS/index.css" />
   </head>
   <body>
@@ -26,12 +27,12 @@
         <nav class="nav">
           <ul class="nav__list list">
             <li class="nav__item">
-              <a href="./index.html" class="nav__link nav__link--current"
-                >Студія</a
-              >
+              <a href="./index.html" class="nav__link">Студія</a>
             </li>
             <li class="nav__item">
-              <a href="./portfolio.html" class="nav__link">Портфоліо</a>
+              <a href="./portfolio.html" class="nav__link nav__link--current"
+                >Портфоліо</a
+              >
             </li>
             <li class="nav__item"><a href="" class="nav__link">Контакти</a></li>
           </ul>
@@ -329,14 +330,14 @@
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="item">
+              <li class="address-box__item">
                 <a
                   href="mailto:info@devstudio.com"
                   class="link address-box__link address-box__link--dark"
                   >info@devstudio.com</a
                 >
               </li>
-              <li class="item">
+              <li class="address-box__item">
                 <a
                   href="tel:+3809611111111"
                   class="link address-box__link address-box__link--dark"
@@ -414,7 +415,7 @@
                 placeholder="E-mail"
               />
             </label>
-            <button class="follow__btn button" type="submit">
+            <button class="follow__button button" type="submit">
               Підписатися
               <svg class="follow__icon" width="24" height="24">
                 <use href="./images/sprite.svg#send"></use>
