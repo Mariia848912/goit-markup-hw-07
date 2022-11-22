@@ -1,9 +1,11 @@
 // /* Чим займаєтся компанія *
 .work {
-    padding-bottom: 94px;
+    @include section (0, 94px);
 }
 
 .work__list {
+    @include list;
+
     display: flex;
     flex-wrap: wrap;
     gap: 30px;

@@ -1,5 +1,7 @@
 /* Навігація сайту */
 .nav__list {
+    @include list;
+    
     display: flex;
 }
 

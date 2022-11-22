@@ -1,7 +1,6 @@
 /* Шапка сайту */
 .page-header {
-    @extend %container;
-
+    
     border-bottom: 1px solid #ECECEC;
     position: fixed;
     width: 100%;

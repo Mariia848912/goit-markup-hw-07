@@ -1,5 +1,7 @@
 /* Соціальні мережі */
 .list-socials {
+    @include list;
+    
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -23,7 +25,7 @@
 }
 
 .list-socials__link--light {
-    color: #AFB1B8;
+    color: var(--color-link);
     background-color: var(--color-white-text-bg);
 
 &:hover,

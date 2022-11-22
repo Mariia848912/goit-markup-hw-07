@@ -10,6 +10,7 @@
 /* кнопки background #F5F4FA; */
 /*телефон и адрес в футере rgba(255, 255, 255, 0.6); */
 :root {
+    // colors
     --primary-text-color: #757575;
     --title-text-color: #212121;
     --accent-color: #2196f3;
@@ -18,7 +19,14 @@
     --color-button-bg: #f5f4fa;
     --color-text-contacts-footer: rgba(255, 255, 255, 0.6);
     --color-text-logo: #000000;
+    --color-button-bg-accent: #188CE8;
+    --color-link: #AFB1B8;
 
+    // fonts
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Raleway", sans-serif;
+
+    // other
     --transition-duration: 250ms;
     --transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }

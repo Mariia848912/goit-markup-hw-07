@@ -2,6 +2,7 @@
 @import './utils/variables';
 @import './utils/v-hidden';
 @import './utils/placeholders';
+@import './utils/mixins';
 
 //base styles
 @import './base/base';
@@ -16,12 +17,20 @@
 @import './components/navigation';
 @import './components/contacts';
 @import './components/hero';
+@import './components/backdrop';
+@import './components/modal';
+@import './components/textarea';
+@import './components/agreement';
 @import './components/advantage';
-@import './components/work';
+@import './components/about';
 @import './components/team';
 @import './components/socials';
 @import './components/clients';
+@import './components/portfolio';
+@import './components/buttons-menu';
+@import './components/work-examples';
 @import './components/footer';
+@import './components/form-follow';
 
 
 

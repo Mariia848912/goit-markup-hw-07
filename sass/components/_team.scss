@@ -1,12 +1,13 @@
 /* Наша команда */
 .team {
+    @include section;
+
     background-color: var(--color-button-bg);
-    /* margin-top: 94px; */
-    padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .team__list {
+    @include list;
+    
     display: flex;
     flex-wrap: wrap;
     gap: 30px;

@@ -1,5 +1,7 @@
-/* Контакти */
+/* Контакти header*/
 .contact-nav {
+    @include list;
+    
     display: flex;
     margin-left: auto;
 }
@@ -35,3 +37,43 @@
     fill: currentColor;
     margin-right: 10px;
 }
+
+/* Контакти footer */
+.address-box {
+    margin-right: 70px;
+    width: 231px;
+}
+
+.address-box__list {
+    @include list;
+}
+
+.address-box__item:not(:last-child) {
+    margin-bottom: 9px;
+}
+
+.address-box__link {
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    text-decoration: none;
+
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-timing-function);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+
+    &--light {
+        color: var(--color-white-text-bg);
+
+    }
+
+    &--dark {
+        color: var(--color-text-contacts-footer);
+    }
+}
+
